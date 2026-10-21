@@ -1,0 +1,11 @@
+interface:
+  display_name: "Notion 论文阅读笔记"
+  short_description: "按固定模板在 Notion 创建可追溯的中文论文阅读笔记"
+  default_prompt: "Use $notion-paper-notes to read this paper and save a structured Chinese note in Notion."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "notion"
+      description: "Search, read, create, and verify pages in the user's Notion workspace."
+
