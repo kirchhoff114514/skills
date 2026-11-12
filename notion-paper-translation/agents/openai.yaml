@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文翻译到 Notion"
+  short_description: "将论文全文译为中文并保存到 Notion，保留原图与原生公式块"
+  default_prompt: "用 $notion-paper-translation 将这篇论文全文译为中文，保存到 Notion 的论文笔记下，保留原图和公式。"
